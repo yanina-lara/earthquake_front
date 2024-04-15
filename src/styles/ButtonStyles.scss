@@ -1,0 +1,23 @@
+button {
+  margin-top: 10px;
+  background-color: #a52020; 
+  border: none;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+  border: 1px solid black;
+  &:hover {
+    background-color: #c8bdbd;
+    color: #000;
+  }
+  &:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+.current-page {
+  background-color: #ccc;
+}

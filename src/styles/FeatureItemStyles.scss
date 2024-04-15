@@ -1,0 +1,28 @@
+.feature-item {
+  background-color: #eaeaea;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  margin-bottom: 10px;
+  &:hover {
+    background-color: #dbd3d3;
+  }
+  h3{
+    padding: 15px;
+    margin: 0;
+  }
+  .feature-details {
+    padding: 0 10px 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 0 10px 0 10px;
+    cursor: default;
+    p {
+      margin: 5px 0;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  }
+}
