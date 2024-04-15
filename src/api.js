@@ -9,7 +9,6 @@ const api = {
         throw new Error('Error fetching features');
       }
       const data = await response.json();
-      debugger
       return data;
     } catch (error) {
       console.error('Error:', error);
